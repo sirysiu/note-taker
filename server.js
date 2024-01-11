@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 //  global notes variable
-fs.readFile("./db/db.json","json",function(data) {
+fs.readFile("./db/db.json",function(data) {
     var notes = data;
 });
 
