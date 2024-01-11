@@ -8,12 +8,12 @@ const PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Setup global notes variable
+//  global notes variable
 fs.readFile("./db/db.json","json",function(data) {
     var notes = data;
 });
 
-//Require routes file
+//routes file
 require('./routes/htmlRoutes')(app);
 require('./routes/apiRoutes')(app);
 
