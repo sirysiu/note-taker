@@ -6,7 +6,5 @@ User will be able to take notes and keep them in storage. They will have an acce
 ## Screenshot
 ![Screenshot of Note Taker](./screenshot/screenshot.png)
 
-## Live URL 
-[Live URL](https://sirysiu.github.io/note-taker/)
 ## Heroku URL
-[Heroku URL](https://enigmatic-coast-22803-34b4b3a557f3.herokuapp.com/)
+[Heroku URL](https://guarded-ravine-86179-043f1c8500fc.herokuapp.com/notes.html)
